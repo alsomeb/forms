@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+  </head>
+  <body>
+    <h1>CV Uppgifter</h1>
+    <form method="post" action="https://formshow.systementor.se">
+      <table>
+        <tr>
+          <td>
+            <label for="name">Namn</label>
+            <br />
+            <input type="text" id="name" name="name" />
+          </td>
+          <td>
+            <label for="mobile">Mobil</label>
+            <br />
+            <input type="text" id="mobile" name="mobile" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="adress">Adress</label>
+            <br />
+            <input type="text" id="adress" name="adress" />
+          </td>
+          <td>
+            <label for="postalCode">Postnummer</label>
+            <br />
+            <input type="text" id="postalCode" name="postalCode" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="postOrt">Postort</label>
+            <br />
+            <input type="text" id="postOrt" name="postOrt" />
+          </td>
+          <td>
+            <label for="email">Email</label>
+            <br />
+            <input type="email" id="email" name="email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="desc">Beskrivning av utbildningen *</label>
+            <br />
+            <textarea name="desc" id="desc" cols="23" rows="3"></textarea>
+          </td>
+          <td>
+            <input
+              type="radio"
+              name="sverige"
+              id="sverige"
+              value="Kan Jobba inom Sverige"
+            />
+            <label for="sverige">Kan arbeta inom Sverige</label>
+            <br />
+            <input type="radio" name="eu" id="eu" value="Kan Jobba inom EU" />
+            <label for="eu">Kan arbeta inom EU</label>
+            <br />
+            <input
+              type="radio"
+              name="regional"
+              id="regional"
+              value="Kan Jobba Regionalt"
+            />
+            <label for="regional">Endast arbete regionalt</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              name="driverslic"
+              id="driverslic"
+              value="got drivers license"
+            />
+            <label for="driverslic">Jag har körkort</label>
+            <br />
+            <input
+              type="checkbox"
+              name="acessCar"
+              id="acessCar"
+              value="got acess car"
+            />
+            <label for="acessCar">Jag har tillgång till bil</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="&check;Spara" />
+            <input type="reset" value="&cross;Avbryt" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
